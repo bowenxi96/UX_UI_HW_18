@@ -38,7 +38,15 @@ nav.inline-block{
 }
 
 .selfPortraitSize{
-    width: 30vw;
+    width: 35vw;
+    margin-left: 16px;
+    float: right;
+    position: relative;
+    bottom: 10px;
+
+    
+
+    
 }
 
 .somePicturesAboutMeSize{
@@ -68,4 +76,40 @@ nav.inline-block{
 .socialLogo{
     max-width: 28px;
     max-height: 28px;
+}
+.intro{
+    margin-top: 100px;
+}
+
+h5{
+font-size: 16px;
+font-weight: 500;
+}
+h3{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+h6{
+    font-weight: 500;
+    font-size: 17.6px;
+    font-style: normal;
+    letter-spacing: .04em;
+    text-transform: none;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+}
+.introBox{
+    font-size: 18px;
+    letter-spacing: .1em;
+    line-height: 160%;
+    width: 95%;
+    margin-top: -10px;
+
+}
+
+.hr{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    width:77%
 }
