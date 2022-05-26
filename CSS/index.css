@@ -7,7 +7,7 @@ body{
 .inline-block{
     display: inline-block;
     vertical-align: top;
-    margin-right: 8px ;
+    padding-right: 20px;
     font-size: 19px;
 
 }
@@ -24,7 +24,7 @@ nav.inline-block{
     width: 400px;
     position: absolute;
     top: 36px;
-    right: -50px;
+    right: 1px;
 }
 
 
@@ -125,15 +125,15 @@ h6{
 }
 
 .grid-container{
-    justify-content: center;
-    display: grid;
-    grid-template-rows: 225px 225px;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-    "empathy collaboration"
-    "engernesstolearn aesthetics"
-    ;
-
+    
+        justify-content: center;
+        display: grid;
+        grid-template-rows: 240px 240px;
+       grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "empathy collaboration"
+        "engernesstolearn aesthetics"
+        ;
 
 /*    grid: auto / auto auto;;
     justify-content: center; */
@@ -153,7 +153,8 @@ h6{
     
 }
 .skillsImg{
-    width: 32vw;
+    
+   width: 30vw;
 }
 
 .valueBox{
@@ -176,4 +177,73 @@ h4{
     letter-spacing: .05em;
     text-transform: none;
     font-size: 20px;
+}
+
+@media only screen and (max-width:920px){
+
+    .skills-grid-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    nav.inline-block{
+        
+        margin-top: 65px;
+    }
+
+    .inline-block{
+        
+        padding-right: 20px;
+    }
+
+
+
+    .selfPortraitSize{
+        
+        width: 80vw;
+        
+        float: top;
+        position: relative;
+        bottom: 15px;
+        left: 20px;
+        margin: auto;
+        
+        
+    }
+
+   
+
+   .skillsImg{
+        width: 90%;
+        
+    }
+
+
+    .grid-container{
+    
+        
+        display: flex;
+        flex-direction: column;
+
+/*    grid: auto / auto auto;;
+    justify-content: center; */
+}
+.valueBox{
+    justify-content: center;
+    border-radius: 12px;
+    border: solid #d8dee2 1px;
+    margin: 16px;
+    width: 70vw;
+
+}
+
+}
+
+@media only screen and (min-width:1341px){
+
+
+    .skillsImg{
+        width: 350px;
+    }
+
 }
