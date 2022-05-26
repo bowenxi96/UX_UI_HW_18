@@ -126,3 +126,12 @@ h6{
 
 }
 
+.valueBox{
+    border-radius: 12px;
+    border: solid #d8dee2 1px;
+    margin: 16px;
+}
+
+.spaceValueBox{
+    padding: 20px;
+}
