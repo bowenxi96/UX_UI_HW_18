@@ -135,3 +135,11 @@ h6{
 .spaceValueBox{
     padding: 20px;
 }
+
+h4{
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .05em;
+    text-transform: none;
+    font-size: 20px;
+}
