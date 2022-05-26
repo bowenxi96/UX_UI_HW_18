@@ -125,20 +125,35 @@ h6{
 }
 
 .grid-container{
-    display: grid;
-    grid: auto / auto auto;;
     justify-content: center;
+    display: grid;
+    grid-template-rows: 225px 225px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "empathy collaboration"
+    "engernesstolearn aesthetics"
+    ;
+
+
+/*    grid: auto / auto auto;;
+    justify-content: center; */
 }
 .skills-grid-container{
     display: grid;
-    grid: auto / auto auto;
+    grid-template-rows: 225px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "ux/uiSkills technicalSkills";
+    
+
+
     justify-content: center;
     gap: 100px;
     
     
 }
 .skillsImg{
-    width: 420px;
+    width: 32vw;
 }
 
 .valueBox{
