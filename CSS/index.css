@@ -43,6 +43,8 @@ nav.inline-block{
     float: right;
     position: relative;
     bottom: 10px;
+   
+    
 
     
 
@@ -103,13 +105,24 @@ h6{
     font-size: 18px;
     letter-spacing: .1em;
     line-height: 160%;
-    width: 95%;
+    width: 100%;
     margin-top: -10px;
+
 
 }
 
 .hr{
-    margin-top: 150px;
-    margin-bottom: 100px;
+    margin-top: 75px;
+    margin-bottom: 50px;
     width:77%
 }
+
+.myIcon{
+    margin-right: 16px;
+
+
+    position: relative;
+    bottom: -30px;
+
+}
+
