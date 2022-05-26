@@ -126,11 +126,32 @@ h6{
 
 }
 
+.grid-container{
+    display: grid;
+    grid: auto / auto auto;;
+    justify-content: center;
+}
+.skills-grid-container{
+    display: grid;
+    grid: auto / auto auto;
+    justify-content: center;
+    gap: 100px;
+    
+    
+}
+.skillsImg{
+    width: 420px;
+}
+
 .valueBox{
     border-radius: 12px;
     border: solid #d8dee2 1px;
     margin: 16px;
+    width: 36vw;
+
 }
+
+
 
 .spaceValueBox{
     padding: 20px;
