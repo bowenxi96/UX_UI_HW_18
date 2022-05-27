@@ -5,14 +5,16 @@ body{
 }
 
 a:link{
-    color: #22263F;
+    color: #22263F; 
     text-decoration: none;
 }
 
 a:hover{
     text-decoration: underline 2px;
     text-underline-offset:  5px;
+    color: #22263F;
 }
+
 
 .inline-block{
     display: inline-block;
