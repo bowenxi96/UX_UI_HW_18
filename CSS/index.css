@@ -259,3 +259,19 @@ h4{
     }
 
 }
+
+#topBtn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    font-size: 22px;
+    width: 50px;
+    height: 50px;
+    background: #DBDBDB;
+    color: #68686B;
+    border: none;
+    cursor:pointer;
+    border-radius: 100px;
+    display: none;
+
+}
