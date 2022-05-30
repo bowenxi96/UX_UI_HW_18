@@ -131,6 +131,10 @@ h6{
 
 
 }
+.emphaIntroWords{
+    font-weight: 800;
+    color: #c98a15;
+}
 
 .hr{
     margin-top: 75px;
