@@ -162,22 +162,29 @@ h6{
     justify-content: center; */
 }
 .skills-grid-container{
-    display: grid;
-    grid-template-rows: 225px;
-    grid-template-columns: 1fr 1fr;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* display: grid;
+    grid-template-rows: 225px 225px;
+    grid-template-columns: 1fr;
     grid-template-areas: 
-    "ux/uiSkills technicalSkills";
-    
-
-
+    "ux/uiSkills"
+    "technicalSkills";
     justify-content: center;
-    gap: 100px;
+    gap: 100px; */
     
+    
+}
+
+.centeredSkills{
+    margin: auto;
     
 }
 .skillsImg{
     
-   width: 30vw;
+   width: 50vw;
 }
 
 .valueBox{
@@ -237,7 +244,7 @@ h4{
    
 
    .skillsImg{
-        width: 90%;
+        width: 100%;
         
     }
 
@@ -266,7 +273,7 @@ h4{
 
 
     .skillsImg{
-        width: 350px;
+        width: 680px;
     }
 
 }
