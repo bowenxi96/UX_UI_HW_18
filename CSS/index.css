@@ -297,3 +297,10 @@ h4{
     display: none;
 
 }
+
+#topBtn:hover{
+
+    transform:translate(0px,-10px);
+      transition: .2s;
+      
+    }
